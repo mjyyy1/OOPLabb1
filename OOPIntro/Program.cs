@@ -14,6 +14,7 @@ namespace OOPIntro
                 {
                     Console.WriteLine("What do you want to buy?");
                     var product = new Product() { _productName = Console.ReadLine() };
+                    kund._cart.Add(product);
                 }
                 else
                     break;
